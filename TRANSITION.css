@@ -1,0 +1,52 @@
+/* 1. Basic Hover Color Change */
+.btn{
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: red;
+    }
+
+/* 2. Grow on Hover */
+.grow{
+    width: 120px;
+    height: 120px;
+    background: orange;
+    margin-top: 20px;
+    transition: transform 0.4s;
+}
+.grow:hover{
+    transform: scale(1.2);
+}
+
+/* 3. Change color, size, shadow */
+.card{
+    width: 150px;
+    height: 100px;
+    background: lightgray;
+    margin-top: 20px;
+    padding: 10px;
+      transition: all 0.4s;
+}
+.card:hover{
+    background: lightgreen;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px gray;
+}
+
+/* 4. Reveal content using opacity */
+.container{
+    margin-top: 20px;
+}
+
+.hidden{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.container:hover .hidden{
+    opacity: 1;
+}
