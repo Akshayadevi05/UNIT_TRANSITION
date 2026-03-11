@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* 1. Box: 80% width but max 600px */
+        .box {
+            width: 80%;
+            max-width: 600px;
+            background: lightgray;
+            padding: 20px;
+            margin: auto;
+        }
+
+        /* 2. Paragraph font size */
+        p {
+            font-size: 1.5rem;
+        }
+
+        /* 3. Heading using vw */
+        h1 {
+            font-size: 5vw;
+        }
+
+        /* 4. Media query for screens below 768px */
+        @media (max-width:768px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Responsive Website</h1>
+        <p>
+            You small the screen, you see the changes.taht is called responsive website.
+        </p>
+    </div>
+
+</body>
+
+</html>
